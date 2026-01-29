@@ -1,0 +1,71 @@
+{
+    "header": {
+        "nav": {
+            "institutional": "Istituzionale",
+            "initial": "Iniziale",
+            "primary": "Primaria",
+            "secondary": "Secondaria",
+            "projects": "Progetti",
+            "pedagogy": "Pedagogia",
+            "contact": "Contattaci"
+        }
+    },
+    "hero": {
+        "pretitle": "Benvenuti all'Istituto Loris Malaguzzi",
+        "title": "Un luogo dove l'<highlight>educazione</highlight> prende <highlight>vita</highlight>.",
+        "description": "Formiamo cittadini del futuro con una proposta pedagogica innovativa e umana.",
+        "btn_primary": "Programma un colloquio",
+        "btn_secondary": "Vedi di più"
+    },
+    "features": {
+        "program": "Programma Curricolare Proprio",
+        "interaction": "Interazione Interdisciplinare",
+        "satisfaction": "Soddisfazione - Alunni e Famiglie",
+        "students": "Totale Alunni"
+    },
+    "news": {
+        "label": "Notizie e Novità",
+        "headline": "Espanditi oltre lo standard",
+        "art_workshop": "Laboratori d'Arte a Scuola",
+        "feedback": "Dare e Ricevere – Il Valore del Feedback",
+        "admissions": {
+            "title": "Iscrizioni Aperte",
+            "initial": "2025 – Livello Iniziale",
+            "rest": "2025-2026 – Primaria e Secondaria"
+        },
+        "btn_info": "Richiedi Informazioni"
+    },
+    "reggio": {
+        "label": "Proposta educativa",
+        "title": "Reggio Emilia",
+        "description": "Una filosofia educativa incentrata sul bambino come protagonista del proprio apprendimento.",
+        "btn_more": "Leggi di più"
+    },
+    "testimonials": {
+        "label": "Le Nostre Storie di Successo",
+        "headline": "sentono e pensano",
+        "list": [
+            {
+                "name": "María González",
+                "date": "Madre di Alunno - Livello Iniziale",
+                "text": "L'attenzione personalizzata e l'approccio umano rendono i miei figli felici ogni giorno."
+            },
+            {
+                "name": "Juan Pérez",
+                "date": "Padre di Alunno - Primaria",
+                "text": "Incredibile comunità educativa. Si nota l'amore e la dedizione in ogni dettaglio."
+            },
+            {
+                "name": "Laura Rodríguez",
+                "date": "Ex Alunna",
+                "text": "La formazione che ho ricevuto qui mi ha preparato non solo accademicamente, ma per la vita."
+            }
+        ]
+    },
+    "cta": {
+        "headline": "Iscriviti alla nostra scuola",
+        "subheadline": "Entra a far parte della nostra Famiglia",
+        "description": "Ti invitiamo a conoscere la nostra proposta educativa ed essere parte di una comunità che valorizza la crescita integrale di ogni bambino.",
+        "btn_form": "Vedi Modulo di Iscrizione"
+    }
+}

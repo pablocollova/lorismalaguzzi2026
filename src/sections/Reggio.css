@@ -1,0 +1,53 @@
+.reggio {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.reggio__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.reggio__container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.reggio__label {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.9;
+}
+
+.reggio__title {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.reggio__description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-lg);
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .reggio {
+        background-attachment: scroll;
+        /* Mobile support */
+    }
+}

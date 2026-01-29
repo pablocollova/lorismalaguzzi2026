@@ -1,0 +1,107 @@
+.feature-grid__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--spacing-md);
+    padding-bottom: var(--spacing-xl);
+}
+
+.item-image {
+    min-height: 300px;
+    padding: 0;
+}
+
+.feature-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-program h3,
+.item-interaction h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+}
+
+.decoration-line {
+    width: 40px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: auto;
+}
+
+.item-video {
+    min-height: 200px;
+}
+
+@media (min-width: 768px) {
+    .feature-grid__container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 250px 250px;
+    }
+
+    .item-image {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        /* Tall image on left */
+    }
+
+    .item-program {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .item-video {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .metric-card:nth-of-type(4) {
+        /* Satisfaction - assumes DOM order match */
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .metric-card:nth-of-type(5) {
+        /* Students */
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .item-interaction {
+        grid-column: 1 / 4;
+        /* Full width bottom bar? or just fit somewhere else */
+        grid-row: 3 / 4;
+        /* OR put it in the grid better */
+    }
+
+    /* Alternative 4-item grid + bottom row */
+}
+
+@media (min-width: 1024px) {
+    .feature-grid__container {
+        grid-template-columns: 1.5fr 1fr 1fr;
+        grid-template-rows: 220px 220px;
+    }
+
+    .item-interaction {
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+        /* Below metrics */
+        display: none;
+        /* User list has 6 items. Image, Red, Video, Metric, Metric, Red. */
+    }
+
+    /* Let's refine the grid to handle all 6 items without a 3rd row acting weird */
+    /* Re-thinking:
+     Row 1: Image (Left), Program (Mid), Video (Right)
+     Row 2: Image (Left cont), Metric (Mid), Metric (Right)
+     Row 3: Interaction (Full or Partial)
+  */
+
+    .item-interaction {
+        display: flex;
+        grid-column: 1 / 4;
+        grid-row: 3;
+    }
+}

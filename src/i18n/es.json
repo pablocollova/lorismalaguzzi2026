@@ -1,0 +1,71 @@
+{
+  "header": {
+    "nav": {
+      "institutional": "Institucional",
+      "initial": "Inicial",
+      "primary": "Primario",
+      "secondary": "Secundario",
+      "projects": "Proyectos",
+      "pedagogy": "Pedagogía",
+      "contact": "Contactanos"
+    }
+  },
+  "hero": {
+    "pretitle": "Bienvenidos al Instituto Loris Malaguzzi",
+    "title": "Un lugar donde la <highlight>educación</highlight> cobra <highlight>vida</highlight>.",
+    "description": "Formamos ciudadanos del futuro con una propuesta pedagógica innovadora y humana.",
+    "btn_primary": "Programa una entrevista",
+    "btn_secondary": "Ver más"
+  },
+  "features": {
+    "program": "Programa Curricular Propio",
+    "interaction": "Interacción Interdisciplinaria",
+    "satisfaction": "Satisfacción - Alumnos y Familia",
+    "students": "Total de Alumnos"
+  },
+  "news": {
+    "label": "Noticias y Novedades",
+    "headline": "Expándete más allá del standard",
+    "art_workshop": "Talleres de Arte en la Escuela",
+    "feedback": "Dar y Recibir – El Valor del Feedback",
+    "admissions": {
+      "title": "Inscripciones Abiertas",
+      "initial": "2025 – Nivel Inicial",
+      "rest": "2025-2026 – Primario y Secundario"
+    },
+    "btn_info": "Solicitar Información"
+  },
+  "reggio": {
+    "label": "Propuesta educativa",
+    "title": "Reggio Emilia",
+    "description": "Una filosofía educativa enfocada en el niño como protagonista de su propio aprendizaje.",
+    "btn_more": "Leer Más"
+  },
+  "testimonials": {
+    "label": "Nuestras Historias de Éxitos",
+    "headline": "sienten y piensan",
+    "list": [
+      {
+        "name": "María González",
+        "date": "Madre de Alumno - Nivel Inicial",
+        "text": "La atención personalizada y el enfoque humano hacen que mis hijos vayan felices cada día."
+      },
+      {
+        "name": "Juan Pérez",
+        "date": "Padre de Alumno - Primaria",
+        "text": "Increíble comunidad educativa. Se nota el amor y la dedicación en cada detalle."
+      },
+      {
+        "name": "Laura Rodríguez",
+        "date": "Ex Alumna",
+        "text": "La formación que recibí aquí me preparó no solo académicamente, sino para la vida."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Inscribite en nuestra escuela",
+    "subheadline": "Forma parte de nuestra Familia",
+    "description": "Te invitamos a conocer nuestra propuesta educativa y ser parte de una comunidad que valora el crecimiento integral de cada niño.",
+    "btn_form": "Ver Formulario de Inscripción"
+  }
+}

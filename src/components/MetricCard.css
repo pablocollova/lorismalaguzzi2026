@@ -1,0 +1,19 @@
+.metric-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.metric-card__value {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--color-text-primary);
+    line-height: 1;
+    margin-bottom: var(--spacing-sm);
+}
+
+.metric-card__label {
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
